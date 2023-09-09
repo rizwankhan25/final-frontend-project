@@ -1,0 +1,208 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    /* font-family: "Gilroy"; */
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+.part__main{
+    min-height: 100vh;
+    width: 100%;
+    background-color:#fff;
+}
+.part-1{
+    width: 100%;
+    height: 80vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.part1__top{
+    width: 100%;
+    height: 15vh;
+    padding: 1.3vw 4.5vw;
+    border: 1px solid #dadada;
+}
+.part1__top h1{
+    font-weight: 400;
+    opacity: .8;
+}
+.part1__top p{
+    font-weight: 400;
+    opacity: .8;
+}
+.part1__btm{
+    width: 94%;
+    height: 65vh;
+    margin-top: 1.5vw;
+    border: 1px solid #dadada;
+}
+.part1__text{
+    width: 100%;
+    height: 25vh;
+    padding: 1vw 3vw;
+}
+.part1__text h1{
+    font-size: 2rem;
+    font-weight: 400;
+    opacity: .8;
+}
+.part1__text h6{
+    opacity: .8;
+    font-size: 1rem;
+    padding: .5vw 0;
+}
+.part1__text p{
+    width: 50%;
+    font-size: .8rem;
+}
+.part__btn{
+    width: 100%;
+    height: 10vh;
+    padding: 1vw 3vw;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.part__btn a{
+    padding: .5rem .9rem;
+    background-color: #dadadada;
+    text-decoration: none;
+}
+.part__img{
+    width: 100%;
+    height: 27vh;
+    padding: 1vw 3vw;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+.img{
+    width: 8vw;
+    height: 15vh;
+    background-image: url(https://images.unsplash.com/photo-1683803055067-1ca1c17cb2b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGZyZWVsYW5jZXIlMjBqb2J8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-position: center;
+
+}
+#text{
+    width: 40vw;
+    height: 15vh;
+}
+#text h2{
+    font-weight: 500;
+    opacity: .8;
+}
+#text h4{
+    opacity: .8;
+    font-weight: 400;
+}
+.part-2{
+    width: 100%;
+    height: 70vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.part-3{
+    width: 100%;
+    height: 70vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.part-4{
+    width: 100%;
+    height: 70vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.part-5{
+    width: 100%;
+    height: 70vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.part-6{
+    width: 100%;
+    height: 70vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#img2{
+    background-image: url(https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aHRtbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60);
+}
+#img3{
+    background-image: url(https://plus.unsplash.com/premium_photo-1664301778733-4810d1a19072?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aHRtbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60);
+}
+#img4{
+    background-image: url(https://images.unsplash.com/photo-1585076641399-5c06d1b3365f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aHRtbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60);
+}
+#img5{
+    background-image: url(https://media.istockphoto.com/id/1284552053/photo/coding-software-concept-developer-working-on-code.webp?b=1&s=170667a&w=0&k=20&c=RHrtD-Zx3CQSz2-p4WIbTn1PgM75EEEqcDregjTy3sc=);
+}
+#img6{
+    background-image: url(https://images.unsplash.com/photo-1622295023876-0cdf583c41f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGZyZWVsYW5jZXIlMjBqb2J8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60);
+}
+
+@media (max-width: 600px) {
+    .footer{
+        display: none;
+    }
+        .part1__nav{
+            display: none;
+        }
+        .part1__top h1{
+            font-size: 1.5rem;
+            padding-top: 2vw;
+        }
+        .part1__top p{
+            font-size: .9rem;
+            width: 50%;
+        }
+        .part1__text h1{
+            font-size: 1rem;
+        }
+        .part__btn{
+            flex-direction: column;
+            align-items: start;
+            padding: 0 3vw;
+            font-size: 1rem;
+        }
+        .part__img{
+            height: 42vh;
+            gap: 6vw;
+        }
+        #text{
+            height: 13vh;
+        }
+        .img{
+            width: 21vw;
+            height: 12vh;
+        }
+        #text h2{
+            font-size: 1.2rem;
+        }
+}

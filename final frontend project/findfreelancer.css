@@ -1,0 +1,301 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    /* font-family: "Gilroy"; */
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+#main {
+    width: 100%;
+    min-height: 80vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.main__text {
+    width: 100%;
+    height: 15vh;
+    padding: 2vw 3vw;
+}
+
+.main__part {
+    width: 95%;
+    height: 55vh;
+    border-top: 1px solid #dadada;
+    border-left: 1px solid #dadada;
+    border-right: 1px solid #dadada;
+    margin: 5vh 0;
+    /* background-color: red; */
+}
+
+
+.main__text h1 {
+    color: #196eaf;
+    opacity: .8;
+}
+
+.main__text p {
+    width: 80%;
+    color: #282727;
+}
+
+.part-1 {
+    width: 100%;
+    height: 100vh;
+}
+
+.part1__top {
+    width: 100%;
+    min-height: 40vh;
+    border-bottom: 1px solid #dadada;
+    border: 1px solid #dadada;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.part1__heading {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    gap: 1.5vw;
+    padding: 0 2vw; 
+}
+
+.part1__box1 {
+    width: 20vh;
+    height: 15vh;
+    background-image: url(https://merriam-webster.com/assets/mw/images/quiz/quiz-global-side-widget/winning-words-from-the-national-spelling-bee-logo-3736-2c303e667877c07eee61e839e1b6ef6c@2x.jpg);
+    border: 1px solid #dadada;
+    background-position: center;
+    background-size: cover;
+}
+
+.part1__box2 {
+    width: 50vh;
+    height: 15vh;
+    opacity: .8;
+    padding: .4rem 0;
+}
+
+.part1__box2 h5 {
+    opacity: .8;
+    padding: .4rem 0;
+}
+
+.part1__top-content {
+    width: 96%;
+    height: 35vh;
+    display: flex;
+    gap: 2vw;
+    border-top: 1px solid #dadada;
+    padding: 1vw 0vw;
+    margin: 0 2vw;
+}
+
+.part1__top-img {
+    width: 20vw;
+    height: 30vh;
+    background-image: url(https://media.istockphoto.com/id/604029582/photo/cloud-computing-concept-white-laptop-with-of-color-application-icons.jpg?s=612x612&w=0&k=20&c=o0tgT5MrMk-2S5745vLX1dWt5RvuPZwJim50OTiwTDs=);
+    /* border: 1px solid #dadada; */
+    background-size: cover;
+    background-position: center;
+}
+
+.part1__top-text {
+    width: 60vw;
+    min-height: 30vh;
+    padding: 1.5vw 0;
+}
+
+.part1__top-text a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    background-color: #f6f4f4;
+    border: 1px solid #dadada;
+    border-radius: 2px;
+}
+
+.part1__top-text p {
+    padding: .8rem 0;
+}
+
+.part1__top-text a:hover {
+    text-decoration: none;
+    border: 1px solid #000;
+}
+
+.part1__btm {
+    width: 96%;
+    height: 8vh;
+    background-color: #f8f6f6;
+    margin: 1vw 2vw;
+    border: 1px solid #dadada;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.part1__btm-links {
+    width: 24%;
+    height: 4vh;
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #dadada;
+}
+
+.part1__btm-links:nth-child(4) {
+    border: none;
+}
+
+.part1__btm-links a {
+    text-decoration: none;
+    padding: 0 .6rem;
+}
+
+#box1__img2 {
+    background-image: url(https://images.unsplash.com/photo-1527544901013-b21533966828?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZyZWVsYW5jZSUyMHdvcmt8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60);
+}
+
+#part1__img2 {
+    background-image: url(https://media.istockphoto.com/id/498323505/photo/businesspeople-using-digital-tablet-together.jpg?s=612x612&w=0&k=20&c=1Y5GNm23P2SCRO0Lt-4RguMEWJWmFv-6A7K3f2YcPqE=);
+}
+
+#box1__img3 {
+    background-image: url(https://media.istockphoto.com/id/889704176/photo/e-commerce-online-shopping-laptop-and-credit-card.jpg?s=612x612&w=0&k=20&c=ZjZKRqtxXsZrUVY-q9UCiecAYRYpstnvvH6KRjUB2bg=);
+}
+
+#part1__img3 {
+    background-image: url(https://images.unsplash.com/photo-1597514110707-b988d3a08652?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGZyZWVsYW5jZSUyMHdvcmt8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60);
+}
+
+#box1__img4 {
+    background-image: url(https://images.unsplash.com/photo-1570126618953-d437176e8c79?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fEluZm9zb2Z0JTIwaXQlMjBjb21wYW55fGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60);
+}
+
+#part1__img4 {
+    background-image: url(https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fEluZm9zb2Z0JTIwaXQlMjBjb21wYW55fGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60);
+}
+
+#box1__img5 {
+    background-image: url(https://plus.unsplash.com/premium_photo-1689700526305-0f4cb4c03ed3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGNvbXB1dGVyJTIwc29mdHdhcmUlMjBkZXNpZ258ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60);
+}
+
+#part1__img5 {
+    background-image: url(https://res.cloudinary.com/gurucom/image/upload/f_auto,dpr_2/v1611111335/pimg/FreelancerFiles/3/284/3284198/ada5ogeikhqpze40sddq.webp);
+}
+#box1__img6 {
+    background-image: url(https://images.unsplash.com/photo-1591088520983-5afbf1efdde2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJveSUyMHdpdGglMjBsYXB0b3B8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60);
+}
+
+#part1__img6 {
+    background-image: url(https://images.unsplash.com/photo-1487073240288-854ac7f1bb3c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJveSUyMHdpdGglMjBsYXB0b3B8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60);
+}
+
+.part-2{
+    width: 100%;
+    height: 290vh;
+    /* margin: 2vh 0; */
+    /* background-color: #2b3247; */
+}
+
+#top{
+    margin: 3vh 0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+@media (max-width: 600px) {
+    nav {
+        display: none;
+    }
+    .part1__nav{
+        display: none;
+    }
+    .part1__top-img {
+        display: none;
+    }
+
+    .main__text h1 {
+        font-size: 2rem;
+        padding-top: 4vw;
+    }
+
+    .main__text {
+        height: 20vh;
+    }
+
+    .main__text p {
+        font-size: 1.2rem;
+        padding-bottom: 7%;
+        padding: 4vw 1vw;
+        width: 100%;
+    }
+
+    .main__part {
+        margin-top: 24vw;
+    }
+
+    .part1__top h4{
+        font-size: 1rem;
+        width: 100%;
+    }
+    .part1__box2 h5{
+        font-size: 15px;
+        color: #000;
+        opacity: 1;
+    }
+    .part1__box2 h4{
+        font-size: 1.2rem;
+        opacity: 1;
+    }
+    .part1__heading {
+        height: 20vh;
+    }
+
+    .part1__top-content {
+        margin-top: 0vw;
+        height: 75%;
+    }
+    .part1__top-text p{
+        font-size: 1.2rem;
+        width: 150%;
+    }
+    .part1__top-text{
+        height: 100%;
+        width: 61vw;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        gap: 2vw;
+    }
+    
+    .part1__top-text a{
+        font-size: 1rem;
+    }
+    .part1__top-text a:nth-child(11){
+        display: none;
+        margin-top: -10;
+        background-color: rebeccapurple;
+    }
+    .part1__btm {
+        display: none;
+    }
+    .footer{
+        display: none;
+    }
+}
